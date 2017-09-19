@@ -1,5 +1,9 @@
 const initState ={
-  todos:[]
+  todos:[
+    {id: 1, name:'create a store', isComplete: true},
+    {id: 2, name:'load state through store', isComplete: false},
+    {id: 3, name:'handle state changes with redux', isComplete: false},
+  ]
 }
 
 export default (state = initState, action) => {
@@ -9,5 +13,4 @@ export default (state = initState, action) => {
     default:
       return state
   }
-  return state
 }
