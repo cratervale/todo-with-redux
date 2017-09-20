@@ -8,7 +8,7 @@ const TodoItem = ({id, name, isComplete}) => (
 );
 
 // console log return undefined, so with stateless components this is a good way to debug
-const TodoList = (props) => console.log('List rendering') || (
+const TodoList = (props) => (
   <div className="Todo-List">
     <ul>
       {props.todos.map(todo => <TodoItem key={todo.id}  {...todo} />)}
