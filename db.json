@@ -1,0 +1,23 @@
+{
+	"todos": [{
+			"id": 1,
+			"name": "configure",
+			"isComplete": false
+		},
+		{
+			"id": 2,
+			"name": "start server",
+			"isComplete": false
+		},
+		{
+			"id": 3,
+			"name": "Add record",
+			"isComplete": false
+		},
+		{
+			"id": 4,
+			"name": "update record",
+			"isComplete": false
+		}
+	]
+}
