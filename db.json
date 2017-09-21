@@ -1,23 +1,44 @@
 {
-	"todos": [{
-			"id": 1,
-			"name": "configure",
-			"isComplete": false
-		},
-		{
-			"id": 2,
-			"name": "start server",
-			"isComplete": false
-		},
-		{
-			"id": 3,
-			"name": "Add record",
-			"isComplete": false
-		},
-		{
-			"id": 4,
-			"name": "update record",
-			"isComplete": false
-		}
-	]
+  "todos": [
+    {
+      "id": 1,
+      "name": "configure",
+      "isComplete": false
+    },
+    {
+      "id": 2,
+      "name": "start server",
+      "isComplete": false
+    },
+    {
+      "id": 3,
+      "name": "Add record",
+      "isComplete": false
+    },
+    {
+      "id": 4,
+      "name": "update record",
+      "isComplete": false
+    },
+    {
+      "name": "a new todo",
+      "isComplete": false,
+      "id": 5
+    },
+    {
+      "name": "testing",
+      "isComplete": false,
+      "id": 6
+    },
+    {
+      "name": "a new todo",
+      "isComplete": false,
+      "id": 7
+    },
+    {
+      "name": "a new todo",
+      "isComplete": false,
+      "id": 8
+    }
+  ]
 }
