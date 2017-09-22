@@ -4,6 +4,8 @@ import './App.css';
 import TodoForm from './components/TodoForm';
 import TodoList from './components/TodoList';
 import Message from './components/Message';
+import {BrowserRouter as Router, Route} from 'react-router-dom'
+import Footer from './components/Footer'
 
 class App extends Component {
   render() {
@@ -13,11 +15,18 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Welcome to Redux
           </h2>
-          <div className="TodoApp">
-            <Message  />
-            <TodoForm/>
-            <TodoList/>
-          </div>
+          <Router>
+
+            <div className="TodoApp">
+              <Message/>
+              <TodoForm/>
+              <Route path='/:filter?' render = {({match}) => (
+                <TodoList filter={match.params.filter}/>
+              )}>
+            </Route>
+              <Footer/>
+            </div>
+          </Router>
         </div>
 
 
